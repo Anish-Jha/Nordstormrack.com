@@ -1,0 +1,38 @@
+#side_navbar_299 {
+    /* border: 1px solid black; */
+    position:sticky ;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 800Px;
+    top:0;
+    overflow: scroll;
+    padding: 7px;
+   }
+   ::-webkit-scrollbar{
+     width: 5px;
+     
+   }
+   /* ::-webkit-scrollbar-track{
+     background:rgb(233, 227, 227);
+   } */
+   ::-webkit-scrollbar-thumb{
+     background: #d1d6d7;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+     background:rgb(202, 211, 190);
+     height: 100px;
+   }
+#side_navbar_299>a{
+   text-decoration: none ;
+   color:#393939;
+   margin-top: 30px;
+}
+#side_navbar_299>a:hover{
+   text-decoration: underline;
+   height: 300px;
+   color: #00819D;
+}
+#side_navbar_299>h3{
+   margin-bottom: 5px;
+}
