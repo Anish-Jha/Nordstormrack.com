@@ -1,0 +1,50 @@
+form{
+    font-family: Brandon Text,Arial,sans-serif; 
+    margin:auto;
+    color: #393939;
+    margin-top: 10%;
+    padding: auto;
+    width: 300px;
+    height: 300px;
+}
+h1{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+}
+p{
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 18.2px;
+}
+a{
+    color: #00819D;
+}
+label{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+}
+input{
+    width: 290px;
+    vertical-align: middle;
+    font-size: 13px;
+    border: 1px solid #BBBBBB;
+    line-height: 18.2px;
+    height: 35px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: border-color 400ms ease-out;
+}
+#submit{
+   width: 300px;
+   height: 40px;
+   background-color: #00819D;
+   outline: none;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
