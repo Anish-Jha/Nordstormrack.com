@@ -8,6 +8,8 @@
     top:0;
     overflow: scroll;
     padding: 7px;
+    font-size: 17px;
+    color: #393939;
    }
    ::-webkit-scrollbar{
      width: 5px;

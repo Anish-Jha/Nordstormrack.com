@@ -2,7 +2,7 @@ const Navbar=()=>{
     return ` <h3>Flash Events</h3>
     <a href="./women.html">Women's Flash Events</a>
     <a href="./men.html">Men's Flash Events</a>
-    <a href="">Kid's Flash Events</a>
+    <a href="./kids.html">Kid's Flash Events</a>
     <a href="">Home Flash Events</a>
     <a href="">Beauty Flash Events</a>
     <h3>Featured</h3>
