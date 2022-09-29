@@ -1,0 +1,87 @@
+#main{
+    margin: auto;
+    padding: auto;
+    height: auto;
+    color: #393939;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    width: 300px;
+    margin-bottom: 10%;
+    font-family: "Brandon Text","Arial",sans-serif; 
+}
+h3{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+}
+#name{
+    
+}
+.image_rack{
+    width: 300px;
+    /* border: 1px solid red; */
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.image_rack>img{
+    width: 100%;
+    margin-left: -5px;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+#shop{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #00819D;
+    border: 1px solid #00819D;
+    padding: 12px 100px 12px 100px;
+}
+#shop:hover{
+    background-color: #00819D;
+    color: white;
+}
+hr{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#gif_rack{
+    display: flex;
+    width: 300px;
+}
+#gif_rack>img{
+    width: 50%
+}
+label{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+}
+input{
+    width: 294px;
+    vertical-align: middle;
+    font-size: 13px;
+    border: 1px solid #BBBBBB;
+    line-height: 18.2px;
+    height: 35px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #00819D;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+ }
+ #last_rack{
+    color: #696969;
+ }

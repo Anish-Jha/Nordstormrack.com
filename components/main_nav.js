@@ -8,7 +8,7 @@
     <img id="search_logo" src="../images/search icon.png" alt="" />
     <div>
       <input
-        id="search_boxx"
+        id="search_box"
         type="text"
         placeholder="Search for products or brands"
       />
