@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids_outlets</title>
+    <script src="https://kit.fontawesome.com/3a6065f609.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/Kids_outlets_navbar.css">
+    <link rel="icon" href="https://cdn.lovesavingsgroup.com/logos/nordstrom-rack.png">
+
+
+   
+</head>
+<body>
+    <div id="kids_parent_div_299">
+    <div id="kids_side_navbar_299">
+        <!-- <hr>
+        <div><p>Gender</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Product Type</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Size</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Color</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Brand</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Feature</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Material</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Neck Style</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Occassion</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Price</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Sleeve Length</p><i class="fa-solid fa-plus"></i></div>
+        <hr>
+        <div><p>Style</p><i class="fa-solid fa-plus"></i></div>
+        <hr> -->
+    </div>
+    
+    <div id="kids_data_299">
+        <!-- Data append -->
+    </div>
+    </div>
+</body>
+</html>
+<script type="module">
+    import  kids_navbar  from "./components/Kids_outlets_navbar.js"
+    let box_qwerty=document.getElementById("kids_side_navbar_299")
+    box_qwerty.innerHTML=kids_navbar()
+
+
+    
+let Trendy_outlets=[
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/c80c1f3f-8ac4-454b-9ec7-b4dcfdbebb94.jpeg?h=365&w=240&dpr=2`,
+        heading:"UGG®",
+        content:"UGG Jona Boot (Toddler, Little & Big Kid)",
+        Price:"$69.97 – $74.97" ,
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/a7925e88-6b14-4b9c-a546-decccaaaf5aa.jpeg?h=365&w=240&dpr=2`,
+        heading:"NORDSTROM RACK",
+        content:"Kids' Fitted Pajamas (Little Kid & Big Kid)",
+        Price: "$16.97",
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/a01b1460-c3ea-4b2f-b411-ace72ce6c277.jpeg?h=365&w=240&dpr=2`,
+        heading:"MIA",
+        content:"Giuletta Glitter Sole Boot (Little Kid & Big Kid)",
+        Price:"$34.97" ,
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/3bd3f23e-f625-495a-80ac-0c28df8085cd.jpeg?h=365&w=240&dpr=2`,
+        heading:"Z by Zella Girl",
+        content:"Kids' Z by Zella Girl Kids' Daily High Waist Leggings (Little Girl & Big Girl)",
+        Price: "$19.97",
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/ac0a2bbf-9ae3-4a28-8820-2c74b7aec63c.jpeg?h=365&w=240&dpr=2`,
+        heading:"Nike",
+        content:"Leopard Print Logo Graphic Tee (Big Girl)",
+        Price:"$11.97" ,
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/b966720b-b2ec-40e2-a521-7640cbc19bcb.jpeg?h=365&w=240&dpr=2`,
+        heading:"UGG®",
+        content:"Keegan Slide Slipper (Toddler, Little Kid & Big Kid)",
+        Price: "$39.97",
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/694d670f-2e38-4f3a-8aa7-f54bd8c3e62c.jpeg?h=365&w=240&dpr=2`,
+        heading:"Harper Canyon",
+        content:"Kids' Assorted Tights - Pack of 2 (Big Kid)",
+        Price:"$9.97" ,
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/bdf5f9e0-5f79-47ff-b1af-d2c72469d308.jpeg?h=365&w=240&dpr=2`,
+        heading:"Levi's®",
+        content:"LANA DENIM LEGGINGS",
+        Price:"Add to Bag or Wish List to see price" ,
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/ea524938-14e4-43ad-a755-42e8f0b30473.jpeg?h=365&w=240&dpr=2`,
+        heading:"Harper Canyon",
+        content:"Everly Faux Fur Lined Boot (Toddler, Little Kid, & Big Kid)",
+        Price: "$19.97Current Price $19.97",
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/b7f5fd20-ddd4-4c8e-bc29-dba2390bfef5.jpeg?h=365&w=240&dpr=2`,
+        heading:"NORDSTROM RACK",
+        content:"Kids' Emma Ballet Flat (Toddler, Little Kid, Big Kid)",
+        Price: "$21.97",
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/39cb6c52-745d-476d-a7f4-46942e356f17.jpeg?h=365&w=240&dpr=2`,
+        heading:"Zunie",
+        content:"Sleeveless Sequin Embroidered Tiered High/Low Dress (Big Girls)",
+        Price:"$24.97" ,
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/5d079be5-e111-4a00-927d-183d13d2f2eb.jpeg?h=365&w=240&dpr=2`,
+        heading:"Treasure & Bond",
+        content:"Block Heel Chelsea Boot (Toddler, Little Kid & Big Kid)",
+        Price:"$29.97" ,
+    },
+    {
+        img:`https://n.nordstrommedia.com/id/sr3/9b3afe64-affd-427f-80c3-2d3288332b6f.jpeg?h=365&w=240&dpr=2`,
+        heading:"PUMA",
+        content:"Kids' Tie Front Long Sleeve Hoodie (Big Girl)",
+        Price:"$14.97" ,
+    },
+
+]
+let box = document.getElementById("kids_data_299")
+const append=()=>{
+    Trendy_outlets.forEach(ele=>{
+    let div=document.createElement("div")
+    // 
+        let img=document.createElement("img")
+        img.src=ele.img
+        let p1=document.createElement("p")
+        p1.innerText=ele.heading
+        let p2=document.createElement("p")
+        p2.innerText=ele.content
+        let p3=document.createElement("p")
+        p3.innerText=ele.Price
+        div.append(img,p1,p2,p3)
+        box.append(div)
+})
+}
+append()
+</script>
