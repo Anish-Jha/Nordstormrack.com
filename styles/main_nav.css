@@ -82,10 +82,36 @@ padding-bottom: 15px;
 justify-content: space-evenly;  
 font-size: 16px; 
 }
-#main_nav976_10>p:hover{
+#main_nav976_10 p:hover{
 cursor: pointer;
 text-decoration: underline;
 color: #00819D;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -50px;
+  height: 600px;
+  width: 1450px;
+  border: 1px solid red;
+  z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.c{
+  /* margin-top: -275px; */
+  display: inline-block;
+  justify-content: space-evenly;  
+  width: 16%;
+  height: 100%;
+  border: 1px solid black;
 }
 
