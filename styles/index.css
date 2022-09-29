@@ -5,6 +5,9 @@ body{
     color: #393939;
     font-family: Brandon Text,Arial,sans-serif;
 }
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 #navbar{
     border: 1px solid black;
     height: 150px;
@@ -97,23 +100,13 @@ body{
 .strikethrough{
     font-style:10px;
 }
-
-#left1,
-#right1,
-#left2,
-#right2{
-    border: none;
-    text-align: center;
-    font-weight: 600;
-    color: #393939;  
-    padding: 20px; 
-    border-radius: 30px;
-    font-weight: 600;
-    background-color: #fff;
-}
   
 #bestsellers_container,
-#great_deals_container{
+#great_deals_container,
+#filter_container,
+#best_selling_container,
+#Racklook,
+#recentlyViewed{
 /* border: 1px solid black; */
     width: 90%;
     height: auto;
@@ -126,9 +119,15 @@ body{
 }
   
 #bestsellers_container > div,
-#great_deals_container>div{
+#great_deals_container>div,
+#filter_container>div,
+#best_selling_container>div,
+#Racklook>div,
+#recentlyViewed>div
+{
+    /* border: 1px solid black; */
     z-index: -1;
-    min-width: 270px;
+    min-width: 220px;
     height: auto;
     position: relative;
     left: 0;
@@ -138,18 +137,28 @@ body{
 }
   
 #bestsellers_container::-webkit-scrollbar,
-#great_deals_container::-webkit-scrollbar{
+#great_deals_container::-webkit-scrollbar,
+#filter_container::-webkit-scrollbar,
+#best_selling_container::-webkit-scrollbar,
+#Racklook>div::-webkit-scrollbar{
     visibility: hidden;
 }
   
 #bestsellers_container > div > img,
-#great_deals_container > div > img {
+#great_deals_container > div > img,
+#filter_container > div > img,
+#best_selling_container > div > img,
+#Racklook>div> img,
+#recentlyViewed>div> img{
     width: 100%;
-    height: 450px;
+    height: 70%;
 }
   
 #bestsellers_container > div > p,
-#great_deals_container > div > p{
+#great_deals_container > div > p,
+#filter_container > div > p,
+#best_selling_container > div > p,
+#recentlyViewed>div> p{
     font-size: 14px;
     font-family: "Inter";
     font-weight: 600;
@@ -158,7 +167,10 @@ body{
 
   
 #bestsellers_container > div > h2,
-#great_deals_container > div > h2{
+#great_deals_container > div > h2,
+#filter_container > div > h2,
+#best_selling_container > div >h2,
+#recentlyViewed>div> h2{
     display: inline-block;
     font-size: 14px;
     margin: 12px 10px 0px 0px;
@@ -167,13 +179,24 @@ body{
 }
 
 #left1,
-#right1 {
+#right1,
+#left2,
+#right2,
+#left3,
+#right3,
+#left4,
+#right4,
+#left5,
+#right5
+ {
   border: none;
+  text-align: center;
   padding: 15px 20px;
   border-radius: 55%;
   font-size: 18px;
   background-color: white;
   color: black;
+  font-weight: 600;
 }
 
 .mid_heading{
@@ -223,10 +246,99 @@ body{
 }
   
 #bestsellers_container>div>.star09,
-#great_deals_container>div>.star09{
-    width: 50%;
-    height: 28px;
+#great_deals_container>div>.star09,
+#filter_container>div>.star09,
+#best_selling_container > div >.star09,
+#recentlyViewed>div>.star09{
+    width: 40%;
+    height: 20px;
 }
-  
-  
-  
+
+#filter09{
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 50%;
+    display: flex;
+    margin-bottom: 2%;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+#fil1,
+#fil2,
+#fil3{
+    /* border: 1px solid red; */
+    margin: auto;
+    width:50%;
+    text-align: center;  
+}
+
+.fil_lin{
+    background-color: #393939;;
+    height: 2px;
+    margin: 10px;
+    display: none;
+}
+
+#filter_btn{
+    /* border: 1px solid red; */
+    width: 8%;
+    margin-left: 90%;
+    margin-bottom: -40px;
+}
+
+#best_selling_container>div>.dots09{
+    
+    width: 80%;
+    height: 30px;
+}
+
+#more_dive_main{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    line-height: 1.4;
+    margin-bottom: 120px;
+}
+#more_dive_main>.more_div{
+    /* border: 1px solid black; */
+    width: 50%; 
+}
+.more_img{
+    width: 105%;
+    height: 200px;
+    margin-right: 5%;
+
+}
+.flash_Dp2{
+    font-size: 13px;
+    padding-right: 10px;
+}
+#yourlook{
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    line-height: 0.5;
+}
+#Racklook{
+    /* border: 1px solid black; */
+    width: 96%;
+}
+#recentlyViewed{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 500px;
+    margin-left:2%;
+}
+#viewed{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: -30px;
+    margin-top: -65px;
+}
+
+
+
