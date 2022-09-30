@@ -22,12 +22,14 @@ let Kids_Data=[
     {
         img:`https://n.nordstrommedia.com/id/411b2030-58e6-4c39-9559-ce1fdedc6c0c.jpeg?h=1224&w=1224`,
         heading:"Kids' Easy-On Sneakers & More",
-        content:"Event ends in 1 day, 20 hours, and 8 minutes"
+        content:"Event ends in 1 day, 20 hours, and 8 minutes",
+        id:"snakers"
     },
     {
         img:`https://n.nordstrommedia.com/id/a3faf5d5-270a-44c7-93e9-eef7fb657cbb.jpeg?h=1224&w=1224`,
         heading:"Sleepover Styles for Kids Up to 60% Off",
-        content:"Event ends in 1 day, 20 hours, and 8 minutes"
+        content:"Event ends in 1 day, 20 hours, and 8 minutes",
+        id:"sleepover"
     },
 ]
 
@@ -53,7 +55,19 @@ const append_data=()=>{
         let p=document.createElement("p")
         p.innerText=ele.content
         if(ele.id==="trendy_outlets"){
-            div.addEventListener("click",Trendy_Outlets() )
+            div.addEventListener("click",()=>{
+                window.location.href="./kidsoutlets_navbar.html"
+            } )
+        }
+        if(ele.id==="snakers"){
+            div.addEventListener("click",()=>{
+                window.location.href="./kids_snakers.html"
+            } )
+        }
+        if(ele.id==="sleepover"){
+            div.addEventListener("click",()=>{
+                window.location.href="./sleepover_styles.html"
+            } )
         }
         div.append(img,h4,p)
         box.append(div)
