@@ -24,6 +24,9 @@ h1{
     /* border: 1px solid red; */
     line-height: 18.2px;
 }
+#form{
+    margin-top: 15px;
+}
 p{
     font-size: 12px;
     margin-top: 10px;
