@@ -20,18 +20,23 @@
         <p>*Required</p>
         <label for="email">Email</label>
         <br>
-        <span id="mail"></span><a id="edit" href="./signup.html">Edit</a>
-        <form action="">
-            <label for="name">First name</label>
+        <p id="mail"></p><a id="edit" href="./signup.html">Edit</a>
+        <form action="" id="form">
+            <label for="name">First name*</label>
             <br>
-            <input type="text" class="name">
+            <input type="text" class="name" id="nameF">
+            <p id="firstName_box"></p>
             <br>
-            <label for="name">Last name</label>
+            <label for="name">Last name*</label>
             <br>
-            <input type="text" class="name">
+            <input type="text" class="name" id="nameL">
+            <p id="lastName_box"></p>
             <br>
-            <label for="password">Create Password</label>
+            <label for="password">Create Password*</label>
             <input type="password" id="password">
+            <p id="ulCase"></p>
+            <p id="nsCase"></p>
+            <p id="leCase"></p>
             <div id="keep_box">
                <div><input id="checkbox" type="checkbox"><span>Keep me signed in</span></div>
                <p>You won't need to sign in as often. Only do this if you're on your personal device. Just sign out if you change your mind.</p>
@@ -42,4 +47,5 @@
     </div>
 
 </body>
+<script src="./scripts/create.js"></script>
 </html>
