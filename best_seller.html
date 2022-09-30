@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/best_seller.css">
+</head>
+<body>
+    <div id="best_seller_main">
+    <div id="best_seller_sidebar">
+          <!-- side bar  -->
+    </div>
+    <div id="best_seller_content" >
+    <h4  id="bs_heading">Best Sellers for Women</h4>
+
+    <div id="itemcount"><span>Item</span></div>
+    <div id="sort_prod">
+
+        <form>
+          <select placeholder name="sortby" id="sortby" >
+            <option value="" >Sort by featured</option>
+            <option value="a-z">Alphabetically, A-Z</option>
+            <option value="z-a">Alphabetically, Z-A</option>
+            <option value="lowToHigh">Price, low to high</option>
+            <option value="highToLow">Price, high to low</option>
+          </select>
+        </form>
+
+      </div>
+    </div>
+    <div id="best_seller_prod" ></div>
+
+</div>
+</body>
+</html>
+<script src="./scripts/best_seller.js"></script>
