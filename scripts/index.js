@@ -1049,10 +1049,28 @@ let filter1Kids = document.getElementById("fil3");
 // onclick event for womens filters
 
 let line2 = document.querySelector("#fil1>.fil_lin");
-  line2.style.display = "block";
+line2.style.display = "block";
+
+let line1_bold = document.querySelector("#fil1>p");
+line1_bold.style.fontWeight = "1000";
+line1_bold.style.color = "black";
 
 filter1Womens.onclick = () =>{
 
+  //for making bold
+  let line1_bold = document.querySelector("#fil1>p");
+  line1_bold.style.fontWeight = "1000";
+  line1_bold.style.color = "black";
+
+  let line2_bold = document.querySelector("#fil2>p");
+  line2_bold.style.fontWeight = "";
+  line2_bold.style.color = "#393939";
+
+  let line3_bold = document.querySelector("#fil3>p");
+  line3_bold.style.fontWeight = "";
+  line3_bold.style.color = "#393939";
+
+  //for showing line
   let line2 = document.querySelector("#fil2>.fil_lin");
   line2.style.display = "none";
 
@@ -1115,6 +1133,20 @@ filter1Womens.onclick = () =>{
 // onclick event for Mens filters
 filter1Mens.onclick = () =>{
 
+   //for making bold
+   let line2_bold = document.querySelector("#fil2>p");
+   line2_bold.style.fontWeight = "1000";
+   line2_bold.style.color = "black";
+ 
+   let line1_bold = document.querySelector("#fil1>p");
+   line1_bold.style.fontWeight = "";
+   line1_bold.style.color = "#393939";
+ 
+   let line3_bold = document.querySelector("#fil3>p");
+   line3_bold.style.fontWeight = "";
+   line3_bold.style.color = "#393939";
+ 
+   //for showing line
   let line2 = document.querySelector("#fil1>.fil_lin");
   line2.style.display = "none";
 
@@ -1177,6 +1209,22 @@ filter1Mens.onclick = () =>{
 // onclick event for Kids filters
 filter1Kids.onclick = () =>{
 
+  //for making bold
+  let line3_bold = document.querySelector("#fil3>p");
+  line3_bold.style.fontWeight = "1000";
+  line3_bold.style.color = "black";
+
+  let line2_bold = document.querySelector("#fil2>p");
+  line2_bold.style.fontWeight = "";
+  line2_bold.style.color = "#393939";
+
+  let line1_bold = document.querySelector("#fil1>p");
+  line1_bold.style.fontWeight = "";
+  line1_bold.style.color = "#393939";
+
+  
+
+  //for showing line
   let line2 = document.querySelector("#fil1>.fil_lin");
   line2.style.display = "none";
 
@@ -1639,9 +1687,11 @@ function appendLook(data, acontainer) {
   data.forEach((ele) => {
     let div1 = document.createElement("div");
   //   div1.style.backgroundColor = "pink";
+    div1.className = "fade_image"
 
     let image = document.createElement("img");
     image.src = ele.Image;
+    image.className = "div_img_slide";
 
     div1.append(image);
     acontainer.append(div1);
