@@ -35,6 +35,7 @@ div {
 }
 #search_boxx {
   border: 0;
+  outline: 0;
   font-size: 18px;
   height: 40px;
   width: 650px;
@@ -92,7 +93,7 @@ color: #00819D;
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   left: -50px;
@@ -100,15 +101,15 @@ color: #00819D;
   width: 1450px;
   border: 1px solid red;
   z-index: 1;
-
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  
+  display: flex;
 }
 .c{
   /* margin-top: -275px; */
-  display: inline-block;
+  /* display: flex; */
   justify-content: space-evenly;  
   width: 16%;
   height: 100%;
