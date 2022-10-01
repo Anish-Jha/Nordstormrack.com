@@ -184,6 +184,10 @@ body{
     font-size: 16px;
     
 }
+#section09>#lin1{
+    background-color: black;
+    display: none;
+}
 
 
 
