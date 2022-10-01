@@ -961,6 +961,9 @@ let prod = [
   },
 ];
 
+let productcount=document.getElementById("itemcount")
+productcount.innerText=`${prod.length} items`
+
 for (let k of prod) {
   k.flag = 0;
 }
@@ -1012,7 +1015,7 @@ let append = (prod) => {
     let icon_div_inner = document.createElement("div");
     icon_div_inner.setAttribute("class", "icon_div_inner");
 
-    icon_div_outer.innerHTML = `<button id='icon-heart-hollow' style='font-size:24px;color: #d8a353'> <i class='far fa-heart'></i></button>`;
+    // icon_div_outer.innerHTML = `<button id='icon-heart-hollow' style='font-size:24px;color: #d8a353'> <i class='far fa-heart'></i></button>`;
 
     icon_div_outer.onclick = () => {
       console.log("onclick");
@@ -1037,7 +1040,7 @@ let append = (prod) => {
         stock_status: el.stock_status,
       };
       localStorage.setItem("women-product", JSON.stringify(obj));
-      window.location.href = "displayProduct.html";
+      window.location.href = "display_items.html";
     });
 
     icon_div_outer.append(icon_div_inner);
