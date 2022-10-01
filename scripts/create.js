@@ -83,7 +83,7 @@ let symb="12345678";
     return;
 }else if(obj.Fname!=="" && obj.Lname!=="" && obj.password!==""){
     signupPage.push(obj);
-    localStorage.setItem("signup", JSON.stringify(signupPage));
+    localStorage.setItem("signIn", JSON.stringify(signupPage));
     window.location.href="welcome.html"
 }   
 })
