@@ -3,6 +3,7 @@ div {
   /* border: 1px solid red; */
 }
 #main_nav976 {
+  
   /* background-color:#fffafaec; */
   height: 150px;
   width: auto;
@@ -83,7 +84,7 @@ padding-bottom: 15px;
 justify-content: space-evenly;  
 font-size: 16px; 
 }
-#main_nav976_10 p:hover{
+#main_nav976_10 p:hover,h3:hover{
 cursor: pointer;
 text-decoration: underline;
 color: #00819D;
@@ -92,27 +93,222 @@ color: #00819D;
   position: relative;
   display: inline-block;
 }
-
-.dropdown-content{
-  display: none;
-  position: absolute;
-  left: -50px;
-  height: 600px;
-  width: 1450px;
-  border: 1px solid red;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  
-  display: flex;
+.c hr{
+  margin-top: -10px;
+  width: 80%;
+  float: left;
 }
 .c{
-  /* margin-top: -275px; */
+  background-color: rgb(250, 248, 248);
+  margin-top: 20px;
+  /* background-color: azure; */
   /* display: flex; */
   justify-content: space-evenly;  
   width: 16%;
   height: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
+.dropdown:hover .dropdown-content1{
+  display: flex;
+}
+.dropdown:hover .dropdown-content2{
+  display: flex;
+}
+
+.dropdown:hover .dropdown-content3{
+  display: flex;
+}
+.dropdown:hover .dropdown-content4{
+  display: flex;
+}
+.dropdown:hover .dropdown-content5{
+  display: flex;
+}
+
+.dropdown:hover .dropdown-content6{
+  display: flex;
+}
+
+.dropdown:hover .dropdown-content7{
+  display: flex;
+}
+
+.dropdown:hover .dropdown-content8{
+  display: flex;
+}
+.dropdown:hover .dropdown-content9{
+  display: flex;
+}
+.dropdown:hover .dropdown-content10{
+  display: flex;
+}
+.dropdown:hover .dropdown-content11{
+  display: flex;
+}
+
+
+.c img{
+  height: 350px;
+  width: 220px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.c2 img{
+  height: 220px;
+  width: 220px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+
+
+.dropdown-content1{
+    background-color: rgb(250, 248, 248);
+  display: none;
+  position: fixed;
+  margin-left: -4%;
+  height: 600px;
+  width: 100%;
+  /* width:max-content; */
+  /* border: 1px solid red; */
+  margin-top: -18px;
+
+}
+
+.dropdown-content2{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -13%;
+
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+  margin-top: -18px;
+
+}
+
+.dropdown-content3{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -21%;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+  margin-top: -18px;
+
+}
+
+.dropdown-content4{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -28%;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+  margin-top: -18px;
+
+}
+
+.dropdown-content5{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -34%;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+  margin-top: -18px;
+
+}
+
+.dropdown-content6{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -41%;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+  margin-top: -18px;
+
+}
+
+.dropdown-content7{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -51%;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+  margin-top: -18px;
+
+}
+
+.dropdown-content8{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -64%;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+  margin-top: -18px;
+
+}
+
+.dropdown-content9{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -72%;
+  margin-top: -18px;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+}
+
+.dropdown-content10{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -80%;
+  margin-top: -18px;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+}
+.dropdown-content11{
+    background-color: rgb(250, 248, 248);
+
+  display: none;
+  position: fixed;
+  margin-left: -90%;
+  margin-top: -18px;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+  z-index: 1;
+}
