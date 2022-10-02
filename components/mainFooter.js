@@ -59,13 +59,13 @@ function footer(){
     <div id="footer_right">
       <div>
         <div id="download_">
-          <div><img src="../images/downloadLink.JPG" alt="" /></div>
+          <div><img src="./images/downloadLink.JPG" alt="" /></div>
           <div><p>Download Our Apps</p></div>
         </div>
-        <div id="top"><img src="../images/top.JPG" alt="" /></div>
+        <div id="top"><img src="./images/top.JPG" alt="" /></div>
       </div>
       <div>
-        <img id="__social" src="../images/social media.JPG" alt="" />
+        <img id="__social" src="./images/social media.JPG" alt="" />
       </div>
     </div>
   </div>

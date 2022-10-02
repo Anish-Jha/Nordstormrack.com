@@ -8,6 +8,10 @@ div {
   height: 150px;
   width: auto;
 }
+body{
+  background-color: rgb(250, 248, 248);
+
+}
 #main_nav976_00{
   /* justify-content: space-evenly;   */
 
@@ -186,7 +190,7 @@ color: #00819D;
 
   display: none;
   position: fixed;
-  margin-left: -13%;
+  margin-left: -14%;
 
   height: 600px;
   width: 100%;
@@ -229,7 +233,7 @@ color: #00819D;
 
   display: none;
   position: fixed;
-  margin-left: -34%;
+  margin-left: -35%;
   height: 600px;
   width: 100%;
   /* border: 1px solid red; */
@@ -243,7 +247,7 @@ color: #00819D;
 
   display: none;
   position: fixed;
-  margin-left: -41%;
+  margin-left: -42%;
   height: 600px;
   width: 100%;
   /* border: 1px solid red; */

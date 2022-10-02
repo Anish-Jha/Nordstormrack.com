@@ -35,7 +35,7 @@ function navbar(){
 
   return `<div id="main_nav976_00">
   <div id="main_nav976_01">
-    <img onclick="gotohome()" src="./images/image_logo.JPG" alt="" />
+    <a href='index.html'><img src="./images/image_logo.JPG" alt="" /></a>
   </div>
 
   <div id="main_nav976_02">
@@ -65,7 +65,7 @@ function navbar(){
   <div class="dropdown"><p>Clearance</p><div class="dropdown-content1">
     <!-- <p>Hello World!</p> -->
     <div class="c">
-      <div><h3 onclick="cl_getIns()">Clearance: Get Inspired</h3></div>
+      <div><h3><a href='get_inspired.html'>Clearance: Get Inspired</a></h3></div>
       <hr>
       <div><h3>Extra 60% off Clearance Shoes</h3></div>
       <div><h3>25% Off Barefoot Dreams Throws</h3></div>
@@ -124,7 +124,7 @@ function navbar(){
         <hr>
         <div><h3>Extra 60% off Clearance Shoes</h3></div>
         <div><h3>Flash Events</h3></div>
-        <div><h3 onclick="wna()">New Arrivals</h3></div>
+        <div><h3><a href='New_Arrival.html'>New Arrivals</a></h3></div>
         <div><h3>Best Sellers</h3></div>
         <div><h3>Contemporary brands</h3></div>
         <div><h3>Trend brands</h3></div>
@@ -417,6 +417,7 @@ function navbar(){
       </div>
       <div class="c">
         <div><h3>Women's Shoes</h3></div>
+        
       <p>Athletic & Running</p>
       <p>Boots & Booties</p>
       <p>Clogs</p>
@@ -450,7 +451,8 @@ function navbar(){
       </div>
       <div class="c">
         <div><h3>Kids' Shoes</h3></div>
-        <p>Baby(Sizes 0-4)</p>
+        <a href='kids_snakers.html'>Kids Sneakers</a>
+
         <p>Toddler(Sizes 4.5-12)</p>
         <p>Little Kid(Sizes 12.5-3)</p>
         <p>Big Kid(Sizes 3.5-7)</p>
@@ -833,7 +835,7 @@ function navbar(){
       <div class="c">
         <div><h3>Gifts: Get Inspired</h3></div>
         <hr>
-        <div><h3 onclick="giftCard()">Gift Cards</h3></div>
+        <div><h3><a href='giftCard.html'>Gift Cards</a></h3></div>
         <div><h3>Wish List</h3></div>
         <div><h3>Best Gift Ideas</h3></div>
         <div><h3>Unique Gift Ideas</h3></div>
@@ -874,9 +876,9 @@ function navbar(){
       <div class="c">
         <div><h3>Flash Events: Get Inspired</h3></div>
         <hr>
-        <div><h3 onclick="wfe()">Women's Flash Events</h3></div>
-        <div><h3 onclick="mfe()">Men's Flash Events</h3></div>
-        <div><h3 onclick="kfe()">Kid's Flash Events</h3></div>
+        <div><h3><a href='women.html'>Women's Flash Events</a></h3></div>
+        <div><h3><a href='men.html'>Men's Flash Events</a></h3></div>
+        <div><h3><a href='kids.html'>Kid's Flash Events</a></h3></div>
         <div><h3>Home Flash Events</h3></div>
         <div><h3>Beauty Flash Events</h3></div>
       </div>
