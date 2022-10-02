@@ -12,6 +12,10 @@
   left: 20px;
   display: flex;
 }
+body{
+  background-color: rgb(250, 248, 248);
+
+}
 #footer_left {
   height: 100%;
   width: 75%;
