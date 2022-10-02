@@ -1,4 +1,14 @@
 
+
+import navbar from "../components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
+
+import footer from "../components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
+
+
 //shoes
 let clearance_Arr = [
     {
@@ -581,3 +591,83 @@ const appendbest = (data, acontainer) => {
   
   let clearance_container = document.getElementById("container_data09")
   appendbest(clearance_Arr, clearance_container);
+
+  //recently viewed
+
+  let recently = [
+    {
+      Image:
+        "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?q=45&dpr=2&h=365.31&w=230",
+        company: "Aslon",
+        price: "$ 69.97 (30% OFF)",
+        strikethrough: "$ 99.95",
+        star_img :"https://www.kindpng.com/picc/m/361-3616540_4-star-rating-blue-hd-png-download.png",
+    },
+    {
+      Image:
+        "https://n.nordstrommedia.com/id/sr3/54b327cb-6295-40cb-83f7-3724dc01adcb.jpeg?q=45&dpr=2&h=365.31&w=230",
+        company: "Lacome",
+        price: "$ 29.00",
+        strikethrough: "",
+        star_img :"https://www.kindpng.com/picc/m/361-3616540_4-star-rating-blue-hd-png-download.png",
+    },
+    {
+    Image:
+      "https://n.nordstrommedia.com/id/sr3/4a689222-8084-43da-9419-241e984cc245.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
+      company: "Tahari",
+      price: "$24.97 (70% off)",      
+      strikethrough: "$ 84.95 - $85.00",
+      star_img :"https://www.kindpng.com/picc/m/361-3616540_4-star-rating-blue-hd-png-download.png",
+  },
+  {
+    Image:
+      "https://n.nordstrommedia.com/id/sr3/1963375b-9c54-47c9-beba-b285b3576490.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
+      company: "T Tahari",
+      price: "$ 29.97 (69% OFF)",
+      strikethrough: "$ 98.00",
+      star_img :"https://www.kindpng.com/picc/m/361-3616540_4-star-rating-blue-hd-png-download.png",
+  }
+  ]
+
+  function appendrecent(data, acontainer) {
+    // acontainer.innerHTML = "";
+    data.forEach((ele) => {
+      let div1 = document.createElement("div");
+    //   div1.style.backgroundColor = "pink";
+  
+      let image = document.createElement("img");
+      image.src = ele.Image;
+  
+      let company = document.createElement("p");
+      company.innerText = ele.company;
+      company.className="company"
+  
+      let price = document.createElement("h2");
+      price.innerText = ele.price;
+      price.className="price"
+  
+      let strikethrough = document.createElement("p");
+      strikethrough.innerText = ele.strikethrough;
+      strikethrough.className="strikethrough"
+  
+      let star = document.createElement("img");
+      star.src = ele.star_img;
+      star.className="star09"
+  
+      div1.append(image, company, price, strikethrough,star);
+      acontainer.append(div1);
+    });
+  }
+  
+  let recentlyViwe_Item = document.getElementById("recentlyViewed");
+  appendrecent(recently, recentlyViwe_Item);
+
+
+  function display(){
+    let nameS=JSON.parse(localStorage.getItem("signIn"))||[];
+  nameS.forEach((el)=>{
+    let name=document.getElementById("main_nav976_031");
+    name.innerText="Hi, "+el.Fname;
+  })
+  }
+  display();

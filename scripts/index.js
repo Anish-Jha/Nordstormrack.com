@@ -1,9 +1,11 @@
 
-// import navbar from "../components/main_nav.js"
-// let navbarDiv=document.getElementById('main_nav976')
-// navbarDiv.innerHTML=navbar();
+import navbar from "../components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
 
-
+import footer from "../components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
 
 //auto top-slider
 let top_09slider = document.getElementById("top_09slider");
@@ -36,7 +38,7 @@ setInterval(function (){
     top_09slider.append(img);
     // console.log("counter :",counter)
 
-}, 5000)
+}, 3000)
 
 //**********************************************************************************************************/
 
@@ -321,7 +323,7 @@ setInterval(function (){
     mid_09slider.append(img1);
     
 
-}, 5000)
+}, 3000)
 
 //**********************************************************************************************************/
 
@@ -533,7 +535,7 @@ var l1 = 0;
       fam_09slider.append(img2);
       
   
-  }, 5000)
+  }, 3000)
 
    //**********************************************************************************************************/
 
@@ -1323,6 +1325,53 @@ function append2(data, acontainer) {
 //by default womens filter
 append2(filterWomenArr, filter_Women_deals);
 
+var left3 = document.getElementById("left3");
+var right3 = document.getElementById("right3");
+var filterdivs = document.querySelectorAll("#filter_container>div");
+var l2 = 0;
+
+right3.onclick = () => {
+  l2++;
+  for (var i of filterdivs) {
+    if (l2 == 0) {
+      i.style.left = "0px";
+    }
+    if (l2 == 1) {
+      i.style.left = "-550px";
+    }
+    if (l2 == 2) {
+      i.style.left = "-1100px";
+    }
+  //   if (l2 == 3) {
+  //     i.style.left = "-2220px";
+  //   }
+
+    if (l2 > 2) {
+      l2 = 2;
+    }
+  }
+};
+
+left3.onclick = () => {
+  l2--;
+  for (var i of filterdivs) {
+    if (l2 == 0) {
+      i.style.left = "0px";
+    }
+    if (l2 == 1) {
+      i.style.left = "-550px";
+    }
+    if (l2 == 2) {
+      i.style.left = "-1100px";
+    }
+
+    if (l2 < 0) {
+      l2 = 0;
+    }
+  }
+};
+
+
 //**********************************************************************************************************/
 
 
@@ -1822,3 +1871,19 @@ var l_l = 0;
   
   let recentlyViwe_Item = document.getElementById("recentlyViewed");
   appendrecent(recently, recentlyViwe_Item);
+
+  let signIn = document.getElementById("upper_btn")
+  signIn.addEventListener("click", () => {
+    window.location.href = "./login.html"
+  })
+
+  
+    function display(){
+      let nameS=JSON.parse(localStorage.getItem("signIn"))||[];
+    nameS.forEach((el)=>{
+      let name=document.getElementById("main_nav976_031");
+      name.innerText="Hi, "+el.Fname;
+    })
+    }
+    display();
+  
