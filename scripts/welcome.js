@@ -1,3 +1,11 @@
+import navbar from "../components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
+
+import footer from "../components/mainFooter.js"
+let footerDiv=document.getElementById("footer09");
+footerDiv.innerHTML=footer();
+
 let form=document.querySelector("form");
 form.addEventListener("submit", function(event){
     event.preventDefault();

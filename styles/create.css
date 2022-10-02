@@ -3,7 +3,9 @@
     padding: auto;
     height: auto;
     color: #393939;
-    margin-top: 10%;
+    margin-bottom: 5%;
+
+    margin-top: 2%;
     width: 300px;
     font-family: Brandon Text,Arial,sans-serif; 
 }
@@ -53,6 +55,7 @@ a{
     height: 40px;
     border: white 1px solid;
     font-size: 13px;
+
 }
 input{
     width: 290px;

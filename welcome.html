@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <link rel="stylesheet" href="./styles/main_nav.css">
+    <link rel="stylesheet" href="./styles/main_footer.css">
     <link rel="stylesheet" href="./styles/welcome.css">
 </head>
 <body>
+    <div id="main_nav976"></div>
     <div id="main">
         <h3> Welcome, <span id="name"></span>!</h3>
         <p>Use your new account to shop at:</p>
@@ -38,6 +41,18 @@
         <input type="submit" value="Next" id="submit">
         </form>
     </div>
+    <div id="footer09"></div>
+
 </body>
-<script src="./scripts/welcome.js"></script>
+<script type="module" src="./scripts/welcome.js"></script>
+<script>
+     function display(){
+      let nameS=JSON.parse(localStorage.getItem("signIn"))||[];
+    nameS.forEach((el)=>{
+      let name=document.getElementById("name");
+      name.innerText=el.Fname;
+    })
+    }
+    display();
+</script>
 </html>
