@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Cards | Nordstrom Rack</title>
+    <link rel="icon" href="https://cdn.lovesavingsgroup.com/logos/nordstrom-rack.png">
+    <script src="https://kit.fontawesome.com/3a6065f609.js" crossorigin="anonymous"></script>
+    <style>
+        #par_299 {
+            /* border: 1px solid red; */
+            width: 97%;
+            margin: auto;
+            color: #2c2b2b;
+
+        }
+
+        #child_299 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3%;
+            /* line-height: 7px; */
+            margin-top: -15px;
+        }
+
+        #child_299>div>img {
+            width: 100%;
+        }
+
+        a {
+            color: RGB(0, 152, 255);
+        }
+
+        #child_299~h2 {
+            margin-top: 70px;
+        }
+
+        #child_299~h2,
+        h2~p {
+            text-align: center;
+        }
+        #purchasing_299>div{
+            padding-left: 1%;
+            color: #4f4c4c;
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div id="par_299">
+        <h2>Gift Cards & eGift Cards</h2>
+        <div id="child_299">
+
+        </div>
+        <h2>About our Gift Cards & eGift Cards</h2>
+        <p>Nordstrom donates 1% of all Gift Card sales to nonprofits in our communities. <a href="">Learn more.</a></p>
+
+        <div id="purchasing_299" >
+            <hr>
+            <div>
+                <h3>Purchasing & Sending <i class="fa-solid fa-angle-down"></i></h3>
+
+            </div>
+            <hr>
+            <div>
+                <h3>Delivery & Redemption <i class="fa-solid fa-angle-down"></i></h3>
+            </div>
+            <hr>
+            <div>
+                <h3>Security <i class="fa-solid fa-angle-down"></i></h3>
+            </div>
+            <hr>
+            <div>
+                <h3>Nordstrom Gift Card Terms & Conditions <i class="fa-solid fa-angle-down"></i></h3>
+            </div>
+            <hr>
+        </div>
+
+        
+        
+    </div>
+
+
+</body>
+
+</html>
+<script>
+    let arr = [
+        {
+            img: `https://n.nordstrommedia.com/id/a3676721-4695-4502-b4eb-eee31e28da3b.jpeg?h=513&w=513`,
+            heading: "Purchase a Gift Card or eGift Card",
+            about: "This link will take you to our partner site operated by CashStar.",
+            button: "Buy Now"
+        },
+        {
+            img: `https://n.nordstrommedia.com/id/bc5531ed-abc0-419b-9739-870f90693e5e.jpeg?h=513&w=513`,
+            heading: "Join Our Corporate Gift Card Program",
+            button: "Learn More"
+        },
+        {
+            img: `https://n.nordstrommedia.com/id/69cb0adb-b6ff-4f42-bc0c-425db1f6d8b3.jpeg?h=513&w=513`,
+            heading: "Check Your Balance",
+            button: "Check Balance"
+        }
+    ]
+    let par_box = document.getElementById("child_299")
+    const append_Data = () => {
+
+        arr.forEach(ele => {
+            let div = document.createElement("div")
+            let img = document.createElement("img")
+            img.src = ele.img
+            let heading = document.createElement("h3")
+            heading.innerText = ele.heading
+            div.append(img, heading)
+            if (ele.about) {
+                let about = document.createElement("p")
+                about.innerText = ele.about
+                div.append(about)
+            }
+            let btn = document.createElement("a")
+            btn.innerText = ele.button
+            btn.href = ""
+            div.append(btn)
+            par_box.append(div)
+        });
+    }
+    append_Data()
+
+</script>
