@@ -51,7 +51,7 @@ function navbar(){
 
   <div id="main_nav976_03">
     <div>
-      <div id="main_nav976_031" onclick="signin()">Singin ▽</div>
+      <div id="main_nav976_031" onclick="signin()">SignIn ▽</div>
     
     </div>
     <div id="main_nav976_032">
