@@ -18,11 +18,14 @@ div {
   margin-top: 20px;
 }
 #main_nav976_01 > img {
+
   height: 40px;
   width: 90px;
   cursor: pointer;
 }
 #search_logo {
+  color: rgb(250, 248, 248);
+
   height: 24px;
   width: 24px;
   margin: 10px;
@@ -35,6 +38,8 @@ div {
   left: 435px;
 }
 #search_boxx {
+  background-color: rgb(250, 248, 248);
+
   border: 0;
   outline: 0;
   font-size: 18px;

@@ -31,6 +31,8 @@
 
 
 function navbar(){
+  let name=JSON.parse(localStorage.getItem("name")) || "Log In"
+
   return `<div id="main_nav976_00">
   <div id="main_nav976_01">
     <img onclick="gotohome()" src="./images/image_logo.JPG" alt="" />
@@ -49,7 +51,7 @@ function navbar(){
 
   <div id="main_nav976_03">
     <div>
-      <div id="main_nav976_031">Singin ▽</div>
+      <div id="main_nav976_031" onclick="signin()">Singin ▽</div>
     
     </div>
     <div id="main_nav976_032">
@@ -63,7 +65,7 @@ function navbar(){
   <div class="dropdown"><p>Clearance</p><div class="dropdown-content1">
     <!-- <p>Hello World!</p> -->
     <div class="c">
-      <div><h3>Clearance: Get Inspired</h3></div>
+      <div><h3 onclick="cl_getIns()">Clearance: Get Inspired</h3></div>
       <hr>
       <div><h3>Extra 60% off Clearance Shoes</h3></div>
       <div><h3>25% Off Barefoot Dreams Throws</h3></div>
@@ -122,7 +124,7 @@ function navbar(){
         <hr>
         <div><h3>Extra 60% off Clearance Shoes</h3></div>
         <div><h3>Flash Events</h3></div>
-        <div><h3>New Arrivals</h3></div>
+        <div><h3 onclick="wna()">New Arrivals</h3></div>
         <div><h3>Best Sellers</h3></div>
         <div><h3>Contemporary brands</h3></div>
         <div><h3>Trend brands</h3></div>
@@ -831,7 +833,7 @@ function navbar(){
       <div class="c">
         <div><h3>Gifts: Get Inspired</h3></div>
         <hr>
-        <div><h3>Gift Cards</h3></div>
+        <div><h3 onclick="giftCard()">Gift Cards</h3></div>
         <div><h3>Wish List</h3></div>
         <div><h3>Best Gift Ideas</h3></div>
         <div><h3>Unique Gift Ideas</h3></div>
@@ -872,9 +874,9 @@ function navbar(){
       <div class="c">
         <div><h3>Flash Events: Get Inspired</h3></div>
         <hr>
-        <div><h3>Women's Flash Events</h3></div>
-        <div><h3>Men's Flash Events</h3></div>
-        <div><h3>Kid's Flash Events</h3></div>
+        <div><h3 onclick="wfe()">Women's Flash Events</h3></div>
+        <div><h3 onclick="mfe()">Men's Flash Events</h3></div>
+        <div><h3 onclick="kfe()">Kid's Flash Events</h3></div>
         <div><h3>Home Flash Events</h3></div>
         <div><h3>Beauty Flash Events</h3></div>
       </div>
