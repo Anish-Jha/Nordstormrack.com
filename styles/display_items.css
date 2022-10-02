@@ -1,0 +1,196 @@
+#container{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+  }    
+  #display_items_imgs{
+    /* border: 2px solid red; */
+    width:60%;
+    height: 750px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+  }
+  #display_items_imgs>img{
+    width: 70%;
+    height: 60%;
+    cursor: zoom-in;
+    /* border: 2px solid blue; */
+  }
+  #display_items_imgs>img:nth-child(1){
+    margin-left: 5rem;
+    height: 70%;
+  }
+  #display_items_imgs>img:nth-child(3){ 
+    margin-left: 5rem;
+    margin-top: -6rem;
+    height: 80%;
+  }
+  #display_items_imgs>img:nth-child(2){
+    height: 70%;
+  }
+  #display_items_imgs>img:nth-child(4){
+    height: 80%;
+    margin-top: -8%;
+  }
+  #display_items_details{
+    /* border: 2px solid blue; */
+    width:35%;
+    height: 700px;
+    margin: auto;
+  }
+  #review-star {
+    font-size: 22px;
+    line-height: 16px;
+    color: rgba(82, 82, 82, 0.75);
+  } 
+  
+   #comments {
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(82, 82, 82, 0.75);
+    margin-bottom: 12px;
+  }
+  #women-card-div-des{
+    font-size: medium;
+    color: rgb(71, 68, 68);
+  }
+  #women-card-div-name{
+    font-size: medium;
+    color: rgb(71, 68, 68);
+  }
+  #women-card-div-price{
+    font-weight: bold;
+  }
+  #free-shipping{
+    font-size: 10px;
+    color: #121212;
+    font-weight: 500;
+  }
+  #afterpay {
+    line-height: 16px;
+    color: #121212;
+    line-height: 29px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    word-spacing: 2px;
+    font-weight: 500;
+
+  }
+  #afterpay span {
+    background-color: #b2fce4;
+    color: #121212;
+    padding: 0px 10px 5px 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+  }
+  #creditcard{
+      font-size: 12px;
+  }
+  #creditcard>a{
+    margin-left: 3.5%;
+    font-size: 10px;
+    color: rgb(96, 125, 212);
+    font-weight: 500;
+  }
+  #size{
+    font-size: 12px;
+  }
+  #typeofsize{
+    width: 60%;
+    height: 5%;
+  }
+  #item-color{
+    width: 60%;
+    height: 5%;
+  }
+  #add-to-cart{
+    color: white;
+    background-color: rgb(84, 84, 221);
+    font-weight: bold;
+    border: none;
+    width: 60%;
+    height: 5%;
+  }
+  #delivery {
+    margin-bottom: -3%;
+    font-weight: 500;
+    color: rgb(71, 68, 68) ;
+    font-size: 12px;
+    }
+.checked {
+  color: rgb(82, 82, 213);
+  width: 12px;
+  
+}
+#wish-list{
+font-size: 10px;
+color: rgb(96, 125, 212);
+font-weight: 500;
+}
+#bottom-container{
+  /* border: 2px solid salmon; */
+  margin-top: 10%;
+  height: 600px;
+  display: flex;
+  }
+#bottom1{
+  /* border: 2px solid green; */
+  width: 40%;
+}
+#size-info{
+  margin-left:4%;
+}
+#details-care{
+  margin-left:4%;
+}
+.details-para{
+  word-wrap: break-word;
+  margin-left: 4%;
+  color: rgb(71, 68, 68);
+  font-size: 14px;
+}
+#bottom2{
+  /* border: 2px solid green; */
+  margin-left: 7%;
+  width: 50%;      
+}
+
+#shop-gift{
+  width: 30%;
+  height: 7%;
+  background-color: white ;
+  color: #00819d;
+  border:2px solid #00819d;
+  font-weight: 400;
+}
+#shop-gift:hover{
+  background-color:#00819d;
+  color: white;
+}
+.bottom-li{
+  color: rgb(71, 68, 68);
+  font-size: 12px;
+}
+.shipping-bottom-li{
+  color: rgb(71, 68, 68);
+  font-size: 12px;
+  margin-left: -4%;
+}
+.shipping-bottom-li>a{
+  color: #00819d;
+}
+#ugg{
+  text-decoration: underline;
+}
+.bottom-para2{
+  color: rgb(71, 68, 68);
+  font-size: 14px;
+}
+#bottom-container>#bottom2>h4{
+  color: rgb(71, 68, 68);
+}
+#bottom-container>#bottom1>h4{
+  color: rgb(71, 68, 68);
+}
+#bottom-span2{
+  color: rgb(71, 68, 68);
+}
