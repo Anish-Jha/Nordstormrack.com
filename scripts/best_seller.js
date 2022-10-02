@@ -11,963 +11,963 @@ let footerDiv=document.getElementById("footer09");
 footerDiv.innerHTML=footer();
 let prod = [
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ec14e5ee-e30b-4270-b0e9-74677f569276.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/0097aae7-5023-45d9-bd89-25acfacda63f.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Classic Slipper (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: "119.97 - $134.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a8ae24ad-8867-47a4-9679-6434c34a55c3.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/9733cbb2-98c8-4305-840d-676abb4ecf02.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Olive Genuine Shearling Cuff Sneaker (Women)",
-      price: "$79.97",
+      Price: "79.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/8ea981e7-d390-47fa-b27a-60b8cd12f8cb.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/93f34c81-721a-49b8-a952-101aaf014af5.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Cory II Genuine Shearling Lined Boot (Women)",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e538996a-70a0-434a-803d-bdbd8c483b81.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4672fa8d-a1d4-4e82-9cd7-35e0668d8f61.jpeg?h=365&w=240&dpr=2",
-      name: "BP.",
+      heading: "BP.",
       des: "BP Lance Leather Block Heel Bootie (Women)",
-      price: "$49.97",
+      Price: "49.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a399be57-3df2-4479-a64a-30b29e4b9230.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/f583e766-e4db-4887-b61e-bf47edc981da.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Super Fluff Genuine Shearling Slingback Slipper (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e9911dbd-fc35-47d6-b25c-8d7947cf9acc.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/02d29345-483a-43ad-a1e6-f197a0cc9577.jpeg?h=365&w=240&dpr=2",
-      name: "Nordstrom Lingerie",
+      heading: "Nordstrom Lingerie",
       des: "Lazy Mornings Lounge Pants",
-      price: "$7.80",
+      Price: "7.80",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/84c73aa8-bb39-4280-b6d8-0b5d4202f05e.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/6fba6a6b-f4b6-4039-be37-09df9c341901.jpeg?h=365&w=240&dpr=2",
-      name: "Joseph A",
+      heading: "Joseph A",
       des: "Oversized Boxy Turtleneck",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/81baa7db-3157-4632-9603-77a8198e0096.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/665cf872-ee3a-440b-8a50-ce33143a8e20.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Ugg Pearle Faux Fur Lined Scuff Slipper (Women)",
-      price: "$59.97",
+      Price: "59.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/d58ece58-c8fd-4d2f-afe1-283046d10c07.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/46e3fbb0-b4a7-4f19-b321-61c112e0884c.jpeg?h=365&w=240&dpr=2",
-      name: "KUT from the Kloth",
+      heading: "KUT from the Kloth",
       des: "Boyfriend Straight Jeans",
-      price: "$34.97",
+      Price: "34.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
-      name: "Kenneth Cole New York",
+      heading: "Kenneth Cole New York",
       des: "Asymmetrical Coat",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: "119.97 - $134.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a8ae24ad-8867-47a4-9679-6434c34a55c3.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/9733cbb2-98c8-4305-840d-676abb4ecf02.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Olive Genuine Shearling Cuff Sneaker (Women)",
-      price: "$79.97",
+      Price: "79.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/8ea981e7-d390-47fa-b27a-60b8cd12f8cb.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/93f34c81-721a-49b8-a952-101aaf014af5.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Cory II Genuine Shearling Lined Boot (Women)",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e538996a-70a0-434a-803d-bdbd8c483b81.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4672fa8d-a1d4-4e82-9cd7-35e0668d8f61.jpeg?h=365&w=240&dpr=2",
-      name: "BP.",
+      heading: "BP.",
       des: "BP Lance Leather Block Heel Bootie (Women)",
-      price: "$49.97",
+      Price: "49.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a399be57-3df2-4479-a64a-30b29e4b9230.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/f583e766-e4db-4887-b61e-bf47edc981da.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Super Fluff Genuine Shearling Slingback Slipper (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e9911dbd-fc35-47d6-b25c-8d7947cf9acc.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/02d29345-483a-43ad-a1e6-f197a0cc9577.jpeg?h=365&w=240&dpr=2",
-      name: "Nordstrom Lingerie",
+      heading: "Nordstrom Lingerie",
       des: "Lazy Mornings Lounge Pants",
-      price: "$7.80",
+      Price: "7.80",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/84c73aa8-bb39-4280-b6d8-0b5d4202f05e.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/6fba6a6b-f4b6-4039-be37-09df9c341901.jpeg?h=365&w=240&dpr=2",
-      name: "Joseph A",
+      heading: "Joseph A",
       des: "Oversized Boxy Turtleneck",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/81baa7db-3157-4632-9603-77a8198e0096.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/665cf872-ee3a-440b-8a50-ce33143a8e20.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Ugg Pearle Faux Fur Lined Scuff Slipper (Women)",
-      price: "$59.97",
+      Price: "59.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/d58ece58-c8fd-4d2f-afe1-283046d10c07.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/46e3fbb0-b4a7-4f19-b321-61c112e0884c.jpeg?h=365&w=240&dpr=2",
-      name: "KUT from the Kloth",
+      heading: "KUT from the Kloth",
       des: "Boyfriend Straight Jeans",
-      price: "$34.97",
+      Price: "34.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
-      name: "Kenneth Cole New York",
+      heading: "Kenneth Cole New York",
       des: "Asymmetrical Coat",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: "119.97 - $134.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a8ae24ad-8867-47a4-9679-6434c34a55c3.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/9733cbb2-98c8-4305-840d-676abb4ecf02.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Olive Genuine Shearling Cuff Sneaker (Women)",
-      price: "$79.97",
+      Price: "79.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/8ea981e7-d390-47fa-b27a-60b8cd12f8cb.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/93f34c81-721a-49b8-a952-101aaf014af5.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Cory II Genuine Shearling Lined Boot (Women)",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e538996a-70a0-434a-803d-bdbd8c483b81.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4672fa8d-a1d4-4e82-9cd7-35e0668d8f61.jpeg?h=365&w=240&dpr=2",
-      name: "BP.",
+      heading: "BP.",
       des: "BP Lance Leather Block Heel Bootie (Women)",
-      price: "$49.97",
+      Price: "49.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a399be57-3df2-4479-a64a-30b29e4b9230.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/f583e766-e4db-4887-b61e-bf47edc981da.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Super Fluff Genuine Shearling Slingback Slipper (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e9911dbd-fc35-47d6-b25c-8d7947cf9acc.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/02d29345-483a-43ad-a1e6-f197a0cc9577.jpeg?h=365&w=240&dpr=2",
-      name: "Nordstrom Lingerie",
+      heading: "Nordstrom Lingerie",
       des: "Lazy Mornings Lounge Pants",
-      price: "$7.80",
+      Price: "7.80",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/84c73aa8-bb39-4280-b6d8-0b5d4202f05e.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/6fba6a6b-f4b6-4039-be37-09df9c341901.jpeg?h=365&w=240&dpr=2",
-      name: "Joseph A",
+      heading: "Joseph A",
       des: "Oversized Boxy Turtleneck",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/81baa7db-3157-4632-9603-77a8198e0096.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/665cf872-ee3a-440b-8a50-ce33143a8e20.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Ugg Pearle Faux Fur Lined Scuff Slipper (Women)",
-      price: "$59.97",
+      Price: "59.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/d58ece58-c8fd-4d2f-afe1-283046d10c07.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/46e3fbb0-b4a7-4f19-b321-61c112e0884c.jpeg?h=365&w=240&dpr=2",
-      name: "KUT from the Kloth",
+      heading: "KUT from the Kloth",
       des: "Boyfriend Straight Jeans",
-      price: "$34.97",
+      Price: "34.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
-      name: "Kenneth Cole New York",
+      heading: "Kenneth Cole New York",
       des: "Asymmetrical Coat",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: "119.97 - $134.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a8ae24ad-8867-47a4-9679-6434c34a55c3.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/9733cbb2-98c8-4305-840d-676abb4ecf02.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Olive Genuine Shearling Cuff Sneaker (Women)",
-      price: "$79.97",
+      Price: "79.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/8ea981e7-d390-47fa-b27a-60b8cd12f8cb.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/93f34c81-721a-49b8-a952-101aaf014af5.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Cory II Genuine Shearling Lined Boot (Women)",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e538996a-70a0-434a-803d-bdbd8c483b81.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4672fa8d-a1d4-4e82-9cd7-35e0668d8f61.jpeg?h=365&w=240&dpr=2",
-      name: "BP.",
+      heading: "BP.",
       des: "BP Lance Leather Block Heel Bootie (Women)",
-      price: "$49.97",
+      Price: "49.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a399be57-3df2-4479-a64a-30b29e4b9230.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/f583e766-e4db-4887-b61e-bf47edc981da.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Super Fluff Genuine Shearling Slingback Slipper (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e9911dbd-fc35-47d6-b25c-8d7947cf9acc.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/02d29345-483a-43ad-a1e6-f197a0cc9577.jpeg?h=365&w=240&dpr=2",
-      name: "Nordstrom Lingerie",
+      heading: "Nordstrom Lingerie",
       des: "Lazy Mornings Lounge Pants",
-      price: "$7.80",
+      Price: "7.80",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/84c73aa8-bb39-4280-b6d8-0b5d4202f05e.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/6fba6a6b-f4b6-4039-be37-09df9c341901.jpeg?h=365&w=240&dpr=2",
-      name: "Joseph A",
+      heading: "Joseph A",
       des: "Oversized Boxy Turtleneck",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/81baa7db-3157-4632-9603-77a8198e0096.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/665cf872-ee3a-440b-8a50-ce33143a8e20.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Ugg Pearle Faux Fur Lined Scuff Slipper (Women)",
-      price: "$59.97",
+      Price: "59.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/d58ece58-c8fd-4d2f-afe1-283046d10c07.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/46e3fbb0-b4a7-4f19-b321-61c112e0884c.jpeg?h=365&w=240&dpr=2",
-      name: "KUT from the Kloth",
+      heading: "KUT from the Kloth",
       des: "Boyfriend Straight Jeans",
-      price: "$34.97",
+      Price: "34.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
-      name: "Kenneth Cole New York",
+      heading: "Kenneth Cole New York",
       des: "Asymmetrical Coat",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: "119.97 - $134.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a8ae24ad-8867-47a4-9679-6434c34a55c3.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/9733cbb2-98c8-4305-840d-676abb4ecf02.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Olive Genuine Shearling Cuff Sneaker (Women)",
-      price: "$79.97",
+      Price: "79.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/8ea981e7-d390-47fa-b27a-60b8cd12f8cb.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/93f34c81-721a-49b8-a952-101aaf014af5.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Cory II Genuine Shearling Lined Boot (Women)",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e538996a-70a0-434a-803d-bdbd8c483b81.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4672fa8d-a1d4-4e82-9cd7-35e0668d8f61.jpeg?h=365&w=240&dpr=2",
-      name: "BP.",
+      heading: "BP.",
       des: "BP Lance Leather Block Heel Bootie (Women)",
-      price: "$49.97",
+      Price: "49.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a399be57-3df2-4479-a64a-30b29e4b9230.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/f583e766-e4db-4887-b61e-bf47edc981da.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Super Fluff Genuine Shearling Slingback Slipper (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e9911dbd-fc35-47d6-b25c-8d7947cf9acc.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/02d29345-483a-43ad-a1e6-f197a0cc9577.jpeg?h=365&w=240&dpr=2",
-      name: "Nordstrom Lingerie",
+      heading: "Nordstrom Lingerie",
       des: "Lazy Mornings Lounge Pants",
-      price: "$7.80",
+      Price: "7.80",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/84c73aa8-bb39-4280-b6d8-0b5d4202f05e.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/6fba6a6b-f4b6-4039-be37-09df9c341901.jpeg?h=365&w=240&dpr=2",
-      name: "Joseph A",
+      heading: "Joseph A",
       des: "Oversized Boxy Turtleneck",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/81baa7db-3157-4632-9603-77a8198e0096.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/665cf872-ee3a-440b-8a50-ce33143a8e20.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Ugg Pearle Faux Fur Lined Scuff Slipper (Women)",
-      price: "$59.97",
+      Price: "59.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/d58ece58-c8fd-4d2f-afe1-283046d10c07.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/46e3fbb0-b4a7-4f19-b321-61c112e0884c.jpeg?h=365&w=240&dpr=2",
-      name: "KUT from the Kloth",
+      heading: "KUT from the Kloth",
       des: "Boyfriend Straight Jeans",
-      price: "$34.97",
+      Price: "34.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
-      name: "Kenneth Cole New York",
+      heading: "Kenneth Cole New York",
       des: "Asymmetrical Coat",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: "119.97 - $134.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a8ae24ad-8867-47a4-9679-6434c34a55c3.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/9733cbb2-98c8-4305-840d-676abb4ecf02.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Olive Genuine Shearling Cuff Sneaker (Women)",
-      price: "$79.97",
+      Price: "79.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/8ea981e7-d390-47fa-b27a-60b8cd12f8cb.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/93f34c81-721a-49b8-a952-101aaf014af5.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Cory II Genuine Shearling Lined Boot (Women)",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e538996a-70a0-434a-803d-bdbd8c483b81.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4672fa8d-a1d4-4e82-9cd7-35e0668d8f61.jpeg?h=365&w=240&dpr=2",
-      name: "BP.",
+      heading: "BP.",
       des: "BP Lance Leather Block Heel Bootie (Women)",
-      price: "$49.97",
+      Price: "49.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a399be57-3df2-4479-a64a-30b29e4b9230.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/f583e766-e4db-4887-b61e-bf47edc981da.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Super Fluff Genuine Shearling Slingback Slipper (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e9911dbd-fc35-47d6-b25c-8d7947cf9acc.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/02d29345-483a-43ad-a1e6-f197a0cc9577.jpeg?h=365&w=240&dpr=2",
-      name: "Nordstrom Lingerie",
+      heading: "Nordstrom Lingerie",
       des: "Lazy Mornings Lounge Pants",
-      price: "$7.80",
+      Price: "7.80",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/84c73aa8-bb39-4280-b6d8-0b5d4202f05e.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/6fba6a6b-f4b6-4039-be37-09df9c341901.jpeg?h=365&w=240&dpr=2",
-      name: "Joseph A",
+      heading: "Joseph A",
       des: "Oversized Boxy Turtleneck",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/81baa7db-3157-4632-9603-77a8198e0096.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/665cf872-ee3a-440b-8a50-ce33143a8e20.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Ugg Pearle Faux Fur Lined Scuff Slipper (Women)",
-      price: "$59.97",
+      Price: "59.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/d58ece58-c8fd-4d2f-afe1-283046d10c07.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/46e3fbb0-b4a7-4f19-b321-61c112e0884c.jpeg?h=365&w=240&dpr=2",
-      name: "KUT from the Kloth",
+      heading: "KUT from the Kloth",
       des: "Boyfriend Straight Jeans",
-      price: "$34.97",
+      Price: "34.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
-      name: "Kenneth Cole New York",
+      heading: "Kenneth Cole New York",
       des: "Asymmetrical Coat",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: "119.97 - $134.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a8ae24ad-8867-47a4-9679-6434c34a55c3.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/9733cbb2-98c8-4305-840d-676abb4ecf02.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Olive Genuine Shearling Cuff Sneaker (Women)",
-      price: "$79.97",
+      Price: "79.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/8ea981e7-d390-47fa-b27a-60b8cd12f8cb.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/93f34c81-721a-49b8-a952-101aaf014af5.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Cory II Genuine Shearling Lined Boot (Women)",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e538996a-70a0-434a-803d-bdbd8c483b81.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4672fa8d-a1d4-4e82-9cd7-35e0668d8f61.jpeg?h=365&w=240&dpr=2",
-      name: "BP.",
+      heading: "BP.",
       des: "BP Lance Leather Block Heel Bootie (Women)",
-      price: "$49.97",
+      Price: "49.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/a399be57-3df2-4479-a64a-30b29e4b9230.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/f583e766-e4db-4887-b61e-bf47edc981da.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Super Fluff Genuine Shearling Slingback Slipper (Women)",
-      price: "$54.97",
+      Price: "54.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/e9911dbd-fc35-47d6-b25c-8d7947cf9acc.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/02d29345-483a-43ad-a1e6-f197a0cc9577.jpeg?h=365&w=240&dpr=2",
-      name: "Nordstrom Lingerie",
+      heading: "Nordstrom Lingerie",
       des: "Lazy Mornings Lounge Pants",
-      price: "$7.80",
+      Price: "7.80",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/84c73aa8-bb39-4280-b6d8-0b5d4202f05e.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/6fba6a6b-f4b6-4039-be37-09df9c341901.jpeg?h=365&w=240&dpr=2",
-      name: "Joseph A",
+      heading: "Joseph A",
       des: "Oversized Boxy Turtleneck",
-      price: "$24.97",
+      Price: "24.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/81baa7db-3157-4632-9603-77a8198e0096.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/665cf872-ee3a-440b-8a50-ce33143a8e20.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "Ugg Pearle Faux Fur Lined Scuff Slipper (Women)",
-      price: "$59.97",
+      Price: "59.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/d58ece58-c8fd-4d2f-afe1-283046d10c07.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/46e3fbb0-b4a7-4f19-b321-61c112e0884c.jpeg?h=365&w=240&dpr=2",
-      name: "KUT from the Kloth",
+      heading: "KUT from the Kloth",
       des: "Boyfriend Straight Jeans",
-      price: "$34.97",
+      Price: "34.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/ff2292c6-bb5d-4b5d-9049-6a685df9ba3a.jpeg?h=365&w=240&dpr=2",
-      name: "Kenneth Cole New York",
+      heading: "Kenneth Cole New York",
       des: "Asymmetrical Coat",
-      price: "$99.97",
+      Price: "99.97",
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f4c8c06d-9352-4453-ad3b-9b9ce8450389.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/4227142e-178d-4ace-901f-cc1f22861d2c.jpeg?h=365&w=240&dpr=2",
-      name: "Caslon®",
+      heading: "Caslon®",
       des: "Miller Water Resistant Chelsea Boot (Women)",
-      price: "$69.97",
+      Price: "69.97",
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/c30bf767-7a08-44ee-ae76-f3b9dbbf3761.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/abff379d-75ef-4496-aec5-ff3e09936864.jpeg?h=365&w=240&dpr=2",
-      name: "Thread & Supply",
+      heading: "Thread & Supply",
       des: "THREAD AND SUPPLY Cardi Coat",
-      price: "$24.97",
+      Price: 24.97,
       stock_status: false,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/5d8f9956-d7e9-4045-8693-6807cec4199b.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/2b9c9532-1d2c-4c7a-994c-14c04e439a9f.jpeg?h=365&w=240&dpr=2",
-      name: "DV by Dolce Vita",
+      heading: "DV by Dolce Vita",
       des: "DV Dolce Vita Lug Sole Chelsea Boot (Women)",
-      price: "$54.97",
+      Price: 54.97,
       stock_status: true,
     },
     {
-      image1:
+      img:
         "https://n.nordstrommedia.com/id/sr3/f6a9894b-eeab-4430-97ed-2f48ab1d4221.jpeg?h=365&w=240&dpr=2",
       image2:
         "https://n.nordstrommedia.com/id/sr3/e979c1a1-3735-4b7a-8024-92b3af5ceeec.jpeg?h=365&w=240&dpr=2",
-      name: "UGG®",
+      heading: "UGG®",
       des: "UGG Classic Short Leather Water Resistant Boot (Women)",
-      price: "$119.97 - $134.97",
+      Price: 119.97,
       stock_status: false,
     },
   ];
@@ -993,7 +993,7 @@ let prod = [
   
       let img1 = document.createElement("img");
       img1.setAttribute("class", "women-card-image-1");
-      img1.src = el.image1;
+      img1.src = el.img;
   
       let div1 = document.createElement("div");
       div1.setAttribute("class", "women-image-div");
@@ -1007,46 +1007,31 @@ let prod = [
       div2.setAttribute("class", "overlay");
   
       let name1 = document.createElement("p");
-      name1.innerText = el.name;
-      name1.setAttribute("id", "women-card-div-name");
+      name1.innerText = el.heading;
+      name1.setAttribute("id", "women-card-div-heading");
   
       let des1 = document.createElement("p");
       des1.innerText = el.des;
       des1.setAttribute("id", "women-card-div-des");
   
       let price1 = document.createElement("p");
-      price1.innerText = el.price;
-      price1.setAttribute("id", "women-card-div-price");
-  
+      price1.innerText = el.Price;
+    price1.setAttribute("id", "women-card-div-Price");  
       let icon_div_outer = document.createElement("div");
       icon_div_outer.setAttribute("id", "icon_div_outer");
   
       let icon_div_inner = document.createElement("div");
       icon_div_inner.setAttribute("class", "icon_div_inner");
-  
-      // icon_div_outer.innerHTML = `<button id='icon-heart-hollow' style='font-size:24px;color: #d8a353'> <i class='far fa-heart'></i></button>`;
-  
-      // icon_div_outer.onclick = () => {
-      //   console.log("onclick");
-      //   if (el.flag == 0) {
-      //     // icon_div_outer.innerHTML = `<button id='icon-heart-fill' style='font-size:24px;color:#d8a353'><i class='fas fa-heart'></i></button>`;
-      //     // el.flag = 1;
-      //   } else if (el.flag == 1) {
-      //     // icon_div_outer.innerHTML = `<button id='icon-heart-hollow' style='font-size:24px;color: #d8a353'> <i class='far fa-heart'></i></button>`;
-      //     // el.flag = 0;
-      //   }
-    
-      // };
      
   
       img2.addEventListener("click", function () {
         let obj = {
-          image1: el.image1,
+          img: el.img,
           image2: el.image2,
-          name: el.name,
+          heading: el.heading,
           des: el.des,
-          price: el.price,
-          stock_status: el.stock_status,
+          Price: el.Price,
+        stock_status: el.stock_status,
         };
         localStorage.setItem("women-product", JSON.stringify(obj));
         window.location.href = "display_items.html";
@@ -1077,8 +1062,8 @@ let prod = [
       let a_data = prod;
       max = 20;
       a_data = a_data.filter((el) => {
-        let str = el.price;
-        str = str.slice(1, 5);
+        let str = el.Price;
+      str = str.slice(1, 5);
         let x = +str;
         return +x >= +min && +x <= +max;
       });
@@ -1088,8 +1073,8 @@ let prod = [
       let a_data = prod;
       min = 10;
       a_data = a_data.filter((el) => {
-        let str = el.price;
-        str = str.slice(1, 5);
+        let str = el.Price;
+      str = str.slice(1, 5);
         let x = +str;
         return +x >= +min && +x <= +max;
       });
@@ -1098,8 +1083,8 @@ let prod = [
     } else if (min != "" && max != "") {
       let a_data = prod;
       a_data = a_data.filter((el) => {
-        let str = el.price;
-        str = str.slice(1, 5);
+        let str = el.Price;
+      str = str.slice(1, 5);
         let x = +str;
         return +x >= +min && +x <= +max;
       });
@@ -1122,8 +1107,8 @@ let prod = [
       append(sortData);
     } else if (sort_value == "a-z") {
       sortData.sort((x, y) => {
-        let a = x.name.toUpperCase();
-        let b = y.name.toUpperCase();
+        let a = x.heading.toUpperCase();
+        let b = y.heading.toUpperCase();
         if (a < b) {
           return -1;
         }
@@ -1132,8 +1117,8 @@ let prod = [
       append(sortData);
     } else if (sort_value == "z-a") {
       sortData.sort((x, y) => {
-        let a = x.name.toUpperCase();
-        let b = y.name.toUpperCase();
+        let a = x.heading.toUpperCase();
+        let b = y.heading.toUpperCase();
         if (b < a) {
           return -1;
         }
@@ -1142,22 +1127,22 @@ let prod = [
       append(sortData);
     } else if (sort_value == "lowToHigh") {
       sortData.sort((a, b) => {
-        let str1 = a.price;
-        str1 = str1.slice(1, 5);
+        let str1 = a.Price;
+      str1 = str1.slice(1, 5);
         let x = +str1;
-        let str2 = b.price;
-        str2 = str2.slice(1, 5);
+        let str2 = b.Price;
+      str2 = str2.slice(1, 5);
         let y = +str2;
         return x - y;
       });
       append(sortData);
     } else if (sort_value == "highToLow") {
       sortData.sort((a, b) => {
-        let str1 = a.price;
-        str1 = str1.slice(1, 5);
+        let str1 = a.Price;
+      str1 = str1.slice(1, 5);
         let x = +str1;
-        let str2 = b.price;
-        str2 = str2.slice(1, 5);
+        let str2 = b.Price;
+      str2 = str2.slice(1, 5);
         let y = +str2;
         return y - x;
       });
