@@ -8,6 +8,10 @@
     <title>sleepover Styles | Nordstrom Rack</title>
     <link rel="icon" href="https://cdn.lovesavingsgroup.com/logos/nordstrom-rack.png">
     <link rel="stylesheet" href="./styles/Kids_outlets_navbar.css">
+
+      <link rel="stylesheet" href="./styles/main_nav.css">
+    <link rel="stylesheet" href="./styles/main_footer.css">
+
     <style>
         #kids_data_299>div>img:hover {
             cursor: pointer;
@@ -40,6 +44,7 @@
 </head>
 
 <body>
+    <div id="main_nav976"></div>
     <div id="kids_parent_div_299">
         <div id="kids_side_navbar_299">
             <!-- Side Navbar -->
@@ -49,6 +54,7 @@
             <!-- Data append -->
         </div>
     </div>
+    <div id="footer1"></div>
 </body>
 
 </html>
@@ -56,6 +62,17 @@
     import kids_navbar from "./components/Kids_outlets_navbar.js"
     let box_qwerty = document.getElementById("kids_side_navbar_299")
     box_qwerty.innerHTML = kids_navbar()
+
+
+import navbar from "./components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
+
+import footer from "./components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
+
+
     let sleepover = [
         {
             img: `https://n.nordstrommedia.com/id/sr3/efdfb36e-3be7-408f-b8fb-94b80c66e785.jpeg?h=365&w=240&dpr=2`,
@@ -301,4 +318,13 @@
         })
     }
     append()
+    
+    function display(){
+      let nameS=JSON.parse(localStorage.getItem("signIn"))||[];
+    nameS.forEach((el)=>{
+      let name=document.getElementById("main_nav976_031");
+      name.innerText="Hi, "+el.Fname;
+    })
+    }
+    display();
 </script>

@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="./styles/Kids_outlets_navbar.css">
     <link rel="icon" href="https://cdn.lovesavingsgroup.com/logos/nordstrom-rack.png">
 
+     <link rel="stylesheet" href="./styles/main_nav.css">
+     <link rel="stylesheet" href="./styles/main_footer.css">
+
+
 
    
 </head>
 <body>
+    <div id="main_nav976"></div>
     <div id="kids_parent_div_299">
     <div id="kids_side_navbar_299">
       <!-- Side Navbar -->
@@ -22,6 +27,7 @@
         <!-- Data append -->
     </div>
     </div>
+    <div id="footer1"></div>
 </body>
 </html>
 <script type="module">
@@ -29,6 +35,13 @@
     let box_qwerty=document.getElementById("kids_side_navbar_299")
     box_qwerty.innerHTML=kids_navbar()
 
+import navbar from "./components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
+
+import footer from "./components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
 
     
 let Trendy_outlets=[
@@ -130,4 +143,13 @@ const append=()=>{
 })
 }
 append()
+
+function display(){
+      let nameS=JSON.parse(localStorage.getItem("signIn"))||[];
+    nameS.forEach((el)=>{
+      let name=document.getElementById("main_nav976_031");
+      name.innerText="Hi, "+el.Fname;
+    })
+    }
+    display();
 </script>

@@ -8,12 +8,15 @@
     <title>Gift Cards | Nordstrom Rack</title>
     <link rel="icon" href="https://cdn.lovesavingsgroup.com/logos/nordstrom-rack.png">
     <script src="https://kit.fontawesome.com/3a6065f609.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/main_nav.css">
+   <link rel="stylesheet" href="./styles/main_footer.css">
     <style>
         #par_299 {
             /* border: 1px solid red; */
             width: 97%;
             margin: auto;
             color: #2c2b2b;
+            /* margin-top: 300px */
 
         }
 
@@ -51,6 +54,7 @@
 </head>
 
 <body>
+    <div id="main_nav976"></div>
     <div id="par_299">
         <h2>Gift Cards & eGift Cards</h2>
         <div id="child_299">
@@ -83,12 +87,17 @@
         
         
     </div>
-
+    <div id="footer1"></div>
 
 </body>
 
 </html>
-<script>
+<script type="module">
+    import navbar from "./components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
+
+
     let arr = [
         {
             img: `https://n.nordstrommedia.com/id/a3676721-4695-4502-b4eb-eee31e28da3b.jpeg?h=513&w=513`,
@@ -130,5 +139,9 @@
         });
     }
     append_Data()
+
+    import footer from "./components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
 
 </script>
