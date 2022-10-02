@@ -1,6 +1,3 @@
-
-
-
 // paste this in all html files' Style
 //     <link rel="stylesheet" href="./styles/main_nav.css">
 //     <link rel="stylesheet" href="./styles/main_footer.css">
@@ -24,14 +21,25 @@
 
 // keep type="module" in each script linking
 
+function navbar() {
+  window.onload = (event) => {
+    const drop = document.querySelectorAll(".dropdown");
+    console.log(drop, "drop");
+    document.addEventListener("click", dropit);
+    drop.forEach((ele) => {
+      ele.addEventListener("click", dropit);
+    });
+  };
 
-
-
-
-
-
-function navbar(){
-  let name=JSON.parse(localStorage.getItem("name")) || "Log In"
+  const dropit = (e) => {
+    //console.log(e.target, "---");
+    const drop = document.querySelectorAll(".dropdown");
+    drop.forEach((ele) => {
+      ele.classList.remove("active");
+    });
+    e.target.parentNode.classList.add("active");
+  };
+  let name = JSON.parse(localStorage.getItem("name")) || "Log In";
 
   return `<div id="main_nav976_00">
   <div id="main_nav976_01">
@@ -55,14 +63,14 @@ function navbar(){
     
     </div>
     <div id="main_nav976_032">
-      <img src="./images/cart logo.JPG" alt="" />
+      <a href='Add_to_cart.html'><img src="./images/cart logo.JPG" alt="" /></a>
     </div>
   </div>
 </div>
 <hr />
 <!-- 0000000000000000000000000000000000000000000000000 -->
 <div id="main_nav976_10">
-  <div class="dropdown"><p>Clearance</p><div class="dropdown-content1">
+  <div class="dropdown"><p>Clearance</p><div class="dropdown-content">
     <!-- <p>Hello World!</p> -->
     <div class="c">
       <div><h3><a href='get_inspired.html'>Clearance: Get Inspired</a></h3></div>
@@ -117,7 +125,7 @@ function navbar(){
 </div>
 <!-- 00000000000000000000000000000000000000000000000000000000 -->
   <div class="dropdown"><p>Women</p>
-    <div class="dropdown-content2">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Women: Get Inspired</h3></div>
@@ -125,7 +133,7 @@ function navbar(){
         <div><h3>Extra 60% off Clearance Shoes</h3></div>
         <div><h3>Flash Events</h3></div>
         <div><h3><a href='New_Arrival.html'>New Arrivals</a></h3></div>
-        <div><h3>Best Sellers</h3></div>
+        <div><h3><a href='best_seller.html'>Best Sellers</a></h3></div>
         <div><h3>Contemporary brands</h3></div>
         <div><h3>Trend brands</h3></div>
         <div><h3>Dresses Under $50</h3></div>
@@ -213,7 +221,7 @@ function navbar(){
   </div>
   <!-- 00000000000000000000000000000000000000000000 -->
   <div class="dropdown"><p>Men</p>
-    <div class="dropdown-content3">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Men: Get Inspired</h3></div>
@@ -297,7 +305,7 @@ function navbar(){
   </div>
   <!-- 0000000000000000000000000000000000000000000000000000 -->
   <div class="dropdown"><p>Kids</p>
-    <div class="dropdown-content4">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Kids: Get Inspired</h3></div>
@@ -399,7 +407,7 @@ function navbar(){
   </div>
   <!-- 0000000000000000000000000000000000000000000000000000 -->
   <div class="dropdown"><p>Shoes</p>
-    <div class="dropdown-content5">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Shoes: Get Inspired</h3></div>
@@ -491,7 +499,7 @@ function navbar(){
   </div>
   <!-- 000000000000000000000000000000000000000000000000000 -->
   <div class="dropdown"><p>Activewear</p>
-    <div class="dropdown-content6">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Activewear: Get Inspired</h3></div>
@@ -575,7 +583,7 @@ function navbar(){
   </div>
 <!-- 000000000000000000000000000000000000000000000000000 -->
     <div class="dropdown"><p>Bags & Accessories</p>
-    <div class="dropdown-content7">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Bags & Accessories: Get Inspired</h3></div>
@@ -665,7 +673,7 @@ function navbar(){
   </div>
    <!-- 0000000000000000000000000000000000000000000000000000000000 -->
    <div class="dropdown"><p>Home</p>
-    <div class="dropdown-content8">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Home: Get Inspired</h3></div>
@@ -745,7 +753,7 @@ function navbar(){
   </div>
    <!-- 0000000000000000000000000000000000000000000000000000000000 -->
    <div class="dropdown"><p>Beauty</p>
-    <div class="dropdown-content9">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
         <div><h3>Beauty: Get Inspired</h3></div>
@@ -828,7 +836,7 @@ function navbar(){
   </div>
    <!-- 0000000000000000000000000000000000000000000000000000000000 -->
    <div class="dropdown"><p>Gifts</p>
-    <div class="dropdown-content10">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
       </div>
@@ -869,7 +877,7 @@ function navbar(){
   </div>
    <!-- 0000000000000000000000000000000000000000000000000000000000 -->
    <div class="dropdown"><p>Flash Events</p>
-    <div class="dropdown-content11">
+    <div class="dropdown-content">
       <!-- <p>Hello World!</p> -->
       <div class="c">
       </div>
@@ -900,7 +908,7 @@ function navbar(){
       </div>
       <div class="c"></div>
     </div>
-  </div>`
+  </div>`;
 }
 
 export default navbar;
