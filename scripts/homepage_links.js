@@ -1,7 +1,7 @@
 //<script src="./scripts/homepage_links.js"></script>
 
   function signin(){
-    window.location.href = "signin.html";
+    window.location.href = "signup.html";
   }
   // function wfe(){
   //   window.location.href = "women.html";
