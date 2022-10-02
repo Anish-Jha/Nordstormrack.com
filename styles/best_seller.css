@@ -1,15 +1,18 @@
    #best_seller_main{
     /* border:2px solid red ; */
     height: auto;
+    margin-bottom: 5%;
     width: auto;
   }
   #best_seller_prod{
     margin: auto;
+    /* border: 1px solid red; */
+    /* position: absolute;
+    top: 200px; */
     margin-left: 27%;
     width: 70%;
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
-    margin-bottom: 5%;
     /* margin-top: 5%; */
     text-align: left;
   }
@@ -95,12 +98,15 @@
   margin-left: 27%;
   height: 100px;
   width: 70%;
+  margin-top: -60%;
   /* border: 2px solid green; */
   }
   #sort_prod{
+    margin-top: -3rem;
+
     /* border: 2px solid royalblue; */
-    margin-left: 70%;
-    margin-top: -2rem;
+    margin-left: 65%;
+
     width: 10rem;
   }
   #sortby{
