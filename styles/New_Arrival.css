@@ -1,7 +1,8 @@
 
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(250, 248, 248);
     color: #393939;
     font-family: Brandon Text,Arial,sans-serif;
 }
@@ -68,6 +69,8 @@ body{
     color: #393939;
     display: flex;
     justify-content: space-between;
+    height:300%;
+   padding-bottom: 8%;
 }
 
 #Heading_section09{
@@ -137,7 +140,7 @@ body{
     grid-template-columns: repeat(4,1fr);
     z-index: -1;
     justify-content: left;
-    /* overflow-x: auto; */
+    overflow-x: auto;
     margin-bottom: 80px;
 }
 
