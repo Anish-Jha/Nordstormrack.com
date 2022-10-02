@@ -15,13 +15,13 @@ let appendProductDetails = (data) => {
     if (!data) return;
   
     let img1 = document.getElementById("women-card-image-1");
-    img1.src = data.image1;
+    img1.src = data.img;
   
     let img2 = document.getElementById("women-card-image-2");
     img2.src = data.image2;
   
     let prod_name = document.getElementById("women-card-div-name");
-    prod_name.innerText = data.name;
+    prod_name.innerText = data.heading;
   
     let prod_des = document.getElementById("women-card-div-des");
     prod_des.innerText = data.des;
@@ -37,11 +37,11 @@ let appendProductDetails = (data) => {
   
   
   //----------------add to cart function--------------------------------------------
-  let arr =JSON.parse(localStorage.getItem("cartItem")) || []
+  let arr =JSON.parse(localStorage.getItem("addcart")) || []
   const AddCart=()=>{
     console.log("rrrr");
     arr.push(product_details);
-    localStorage.setItem("cartItem", JSON.stringify(arr));
+    localStorage.setItem("addcart", JSON.stringify(arr));
     let alert=document.getElementById("alert");
     alert.innerText="Added to Cart!";
     alert.style.color="green";

@@ -112,8 +112,9 @@
   }
   #addcart:hover{
     cursor: pointer;
-    background-color:#b2fce4;
-    color: blue;
+    border:1px solid rgb(84, 84, 221);
+    background:transparent;
+    color: rgb(84, 84, 221);
   }
   #delivery {
     margin-bottom: -3%;
