@@ -2,6 +2,14 @@ import { Navbar } from "../components/Side_Navbar.js";
 let nav=document.getElementById("side_navbar_299")
 nav.innerHTML=Navbar()
 
+import navbar from "../components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
+
+import footer from "../components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
+
 let Kids_Data=[
     {
         img:`https://n.nordstrommedia.com/id/aa3fe51f-8503-4723-9c29-065f0738c4a0.jpeg?h=1224&w=1224`,
@@ -77,3 +85,11 @@ append_data()
 function Trendy_Outlets(){
     console.log("ho")
 }
+function display(){
+    let nameS=JSON.parse(localStorage.getItem("signIn"))||[];
+  nameS.forEach((el)=>{
+    let name=document.getElementById("main_nav976_031");
+    name.innerText="Hi, "+el.Fname;
+  })
+  }
+  display();

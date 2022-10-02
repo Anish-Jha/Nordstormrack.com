@@ -2,6 +2,14 @@ import { Navbar } from "../components/Side_Navbar.js";
 let nav=document.getElementById("side_navbar_299")
 nav.innerHTML=Navbar()
 
+import navbar from "../components/main_nav.js"
+let navbarDiv=document.getElementById('main_nav976')
+navbarDiv.innerHTML=navbar();
+
+import footer from "../components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
+
 let women_Data=[
     {
         img:`https://n.nordstrommedia.com/id/b39c7585-2424-4fe6-ba3c-53b295c58dda.jpeg?h=1224&w=1224`,
@@ -128,3 +136,13 @@ women_Data.forEach(ele => {
 });
 }
 append_Data()
+
+
+function display(){
+    let nameS=JSON.parse(localStorage.getItem("signIn"))||[];
+  nameS.forEach((el)=>{
+    let name=document.getElementById("main_nav976_031");
+    name.innerText="Hi, "+el.Fname;
+  })
+  }
+  display();
