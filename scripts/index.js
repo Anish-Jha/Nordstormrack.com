@@ -1,4 +1,10 @@
 
+// import navbar from "../components/main_nav.js"
+// let navbarDiv=document.getElementById('main_nav976')
+// navbarDiv.innerHTML=navbar();
+
+
+
 //auto top-slider
 let top_09slider = document.getElementById("top_09slider");
 
