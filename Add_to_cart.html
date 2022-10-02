@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="icon" href="https://cdn.lovesavingsgroup.com/logos/nordstrom-rack.png">
+
+    <link rel="stylesheet" href="./styles/main_nav.css">
+    <link rel="stylesheet" href="./styles/main_footer.css">
+<style>
+    #parent_299{
+        display: flex;
+    }
+    /* #parent_299>div:nth-child(){
+        width: 100%;
+    } */
+    #cart{
+        /* border: 1px solid black; */
+        width: 60%;
+        margin-left: 50px;
+    }
+    #cart>div{
+    /* border: 2px solid red; */
+    display: flex;
+    }
+    #cart>div>div{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;margin-left: 20px;
+    }
+    #cart>div>img{
+        width: 30%;
+    }
+    #num_of_items{
+        display: flex;
+        margin-left: 50px;
+    }
+    #num_of_items>button{
+        border: 0px;
+        padding: 7px;
+        font-weight: 500;
+        font-size: 18px;
+                
+    }
+    #num_of_items>button:hover{
+        cursor: pointer;
+    }
+    #Subtotal
+    {
+        /* border: 2px solid teal; */
+        height: 400px;
+        width: 300px;
+        margin: auto;
+    }
+    #Subtotal>div{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #Subtotal>button{
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        background-color: rgb(0, 120, 215);
+        border: 0px;
+        color: white;
+        
+    }
+    /* #subtotal>div{
+        dis
+    } */
+    #Subtotal>button:hover{
+        cursor: pointer;
+        background-color: white;
+        color: rgb(0, 120, 215);
+        border: 1px solid rgb(0, 120, 215);
+    }
+    #num_of_items>button:nth-child(2)
+    {
+        background-color: white;
+        border: 1px solid rgb(225, 222, 222);
+    }
+</style>
+</head>
+
+<body>
+    <div id="main_nav976"></div>
+    <div id="parent_299">
+       <div>
+        <div id="num_of_items">
+            <button id="total_299" >Shopping Bag</button>
+            <button>Save for Later (0)</button>
+        </div>
+        <div id="cart">
+            <!-- LS_Data -->
+        </div>
+       </div>
+        <div id="Subtotal">
+            <div ><p>Subtotal</p><p id="Subtotal_299"></p></div>
+            <div ><p>Shipping</p><p id="shipping_299"></p></div>
+            <div ><p>Estimate tax</p><p id="estimated"></p></div>
+            <hr>
+            <div><p>Estimated total</p><p id="total_estimate"></p></div>
+            <button>Check Out</button>
+            
+
+        </div>
+    </div>
+    <div id="footer1"></div>
+</body>
+
+</html>
+<script type="module">
+    import navbar from "./components/main_nav.js"
+    let navbarDiv = document.getElementById('main_nav976')
+    navbarDiv.innerHTML = navbar();
+
+    let par_div=document.getElementById("cart")
+
+    let total=0
+
+    let ls_data=JSON.parse(localStorage.getItem("addcart"))
+    document.getElementById("total_299").innerText=`Shopping Bag (${ls_data.length})`
+    function display_data(ls_data)
+    {
+
+        ls_data.forEach(ele=> {
+            let div=document.createElement("div")
+            let div2=document.createElement("div")
+
+            let img= document.createElement("img")
+            img.src=ele.img
+            let Price=document.createElement("h3")
+            Price.innerText=`Price : ${ ele.Price}`
+// Total price
+
+            total+=parseInt(ele.Price)
+
+            let heading=document.createElement("h3")
+            heading.innerText=ele.heading
+
+            div2.append(Price,heading)
+            let hr=document.createElement("hr")
+            div.append(img,div2)
+            par_div.append(div,hr)
+        });
+    console.log(total)
+
+    }
+    display_data(ls_data)
+            
+    let total_price=150+total
+    document.getElementById("Subtotal_299").innerText=`$ ${total}`
+    document.getElementById("shipping_299").innerText="Free"
+    document.getElementById("estimated").innerText="$ 20.49"
+    document.getElementById("total_estimate").innerText=`$ ${total_price}`
+
+
+import footer from "./components/mainFooter.js"
+let main_footer=document.getElementById('footer1');
+main_footer.innerHTML=footer();
+
+</script>
