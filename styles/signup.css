@@ -2,10 +2,11 @@ form{
     font-family: Brandon Text,Arial,sans-serif; 
     margin:auto;
     color: #393939;
-    margin-top: 10%;
+    margin-top: 2%;
     padding: auto;
     width: 300px;
     height: 300px;
+    margin-bottom: 5%;
 }
 h1{
     font-size: 25px;
